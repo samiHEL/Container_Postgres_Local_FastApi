@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 import database as _database
 import models as _models
 import schemas as _schemas
-
+#les services sont comme des fonctions de creation de bdd, c'est ici que l'on peut faire des ADD,UPDATE etc...
 if TYPE_CHECKING:
     from sqlalchemy.orm import Session
 def _add_tables():
